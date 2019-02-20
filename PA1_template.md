@@ -72,11 +72,11 @@ title(main='average number of steps taken over 5-min intervals during a day')
 2. find the 5-minute interval that, on average, contains the maximum number of steps
 
 ```r
-intvlsteps$interval[which.max(intvlsteps$steps)]
+intvlsteps$interval[which.max(intvlsteps$meansteps)]
 ```
 
 ```
-## integer(0)
+## [1] 835
 ```
 
 
