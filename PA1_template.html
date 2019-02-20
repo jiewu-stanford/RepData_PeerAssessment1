@@ -233,8 +233,8 @@ title(main='average number of steps taken over 5-min intervals during a day')</c
 <ol start="2" style="list-style-type: decimal">
 <li>find the 5-minute interval that, on average, contains the maximum number of steps</li>
 </ol>
-<pre class="r"><code>intvlsteps$interval[which.max(intvlsteps$steps)]</code></pre>
-<pre><code>## integer(0)</code></pre>
+<pre class="r"><code>intvlsteps$interval[which.max(intvlsteps$meansteps)]</code></pre>
+<pre><code>## [1] 835</code></pre>
 </div>
 <div id="imputing-missing-values" class="section level2">
 <h2>Imputing missing values</h2>
